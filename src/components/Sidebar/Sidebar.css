@@ -1,0 +1,27 @@
+.sidebar {
+    width: 150px;
+    flex: 0 1 auto;
+    background-color: #191718;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.item {
+    padding: 14px 16px;
+    border-bottom: 1px solid #5C5C5C;
+    font-weight: 700;
+    color: #AAAAAA;
+    text-decoration: none;
+    
+}
+
+.item:hover {
+    color: #fff;
+    background-color: #5C5C5C;
+    cursor: pointer;
+}
+
+.item-active {
+    color: #fff;
+}
