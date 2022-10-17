@@ -1,11 +1,12 @@
+
 .course-title {
     font-size: 24px;
     font-weight: bold;
 }
 
 .course-img {
-    width: 128px;
-    height: 128px;
+    max-width: 100%;
+    height: auto;
     float: left;
     margin-right: 1rem;
 }
